@@ -16,7 +16,7 @@ function App() {
         REDUX TRY
       </Alert>
       <Alert className='text-center mt-0' variant="primary ">
-        <Badge bg='warning' className='p-2'></Badge>
+        <Badge bg='warning' className='p-2'>{counter}</Badge>
         <br/>
         <div className='mt-3'>
         <Button onClick={()=>despatch(increment())}>+</Button> {" "}
