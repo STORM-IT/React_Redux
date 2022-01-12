@@ -21,7 +21,6 @@ function App() {
         <Button onClick={()=>dispatch(decrement())}>-</Button>
         </div>
       </Alert>
-      
     </Fragment>
   );
 }
