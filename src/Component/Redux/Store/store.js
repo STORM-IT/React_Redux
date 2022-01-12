@@ -1,6 +1,5 @@
-import { createStore } from "redux"
-import {conterReducer} from "../Reducer/reducer"
+import { createStore } from "redux";
+import {reducers} from './../Reducer'
 
-export const store=createStore(conterReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-console.log("object")
-store.subscribe(()=> console.log(store.getState()))
+export const store =createStore(reducers,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+store.subscribe(() => console.log(store.getState()));
