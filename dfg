@@ -1,0 +1,143 @@
+[33mcommit 043dd01d3a0758ea3eaea949ff88aac9e5fbc799[m[33m ([m[1;36mHEAD -> [m[1;32mtry-redux[m[33m)[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 21:23:21 2022 +0330
+
+    first commit
+
+[33mcommit 3deab282684b0965d9b90e21cac5bd6071ae9b9c[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 21:16:57 2022 +0330
+
+    debug 2
+
+[33mcommit ae8b2353a9d8c42ec833e2f29e71e174a095b50d[m[33m ([m[1;31mredux/try-redux[m[33m)[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 19:08:50 2022 +0330
+
+    edit app.js and fixed import Reducer/index.js
+
+[33mcommit cd90cf9a409218cb333d8ee115ff18710829f3ee[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 18:55:21 2022 +0330
+
+    start debug
+
+[33mcommit d6a29a3f4fb289ba317d59f679b17a7ebb2f3a6e[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 18:31:41 2022 +0330
+
+    edit and add redux from component persons manager
+
+[33mcommit 05500680fffa1217d6487b2e325947799d0ac684[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 18:13:54 2022 +0330
+
+    add Redux:reducer index persons manager
+
+[33mcommit ef6b1859e130d31e419075f6bf42bcf541c9a0bc[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 16:44:20 2022 +0330
+
+    create REDUX:reducer person manager
+
+[33mcommit 329a51c3011a62a03b4484e9d60ba0b372db2f60[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 16:24:36 2022 +0330
+
+    create REDUX:action person manager
+
+[33mcommit f8718ba1c70eef0d3fe47c685b47b74eee5ce345[m
+Author: storm <stooormix@gmail.com>
+Date:   Fri Jan 14 13:48:14 2022 +0330
+
+    add component Persons
+
+[33mcommit 912d386edbb8117033fffb1becec6030b066a3fc[m
+Merge: 9911179 474ec9d
+Author: ali parsa <89939342+STORM-IT@users.noreply.github.com>
+Date:   Fri Jan 14 13:25:19 2022 +0330
+
+    Merge pull request #1 from STORM-IT/master
+    
+    Master
+
+[33mcommit 99111796f89c8d63f5f02e6126ee2d517f7163f9[m
+Author: ali parsa <89939342+STORM-IT@users.noreply.github.com>
+Date:   Fri Jan 14 11:33:58 2022 +0330
+
+    update Header
+    
+    add header commponent
+
+[33mcommit a2bf37c42f9fa561fe520e7404b0f36b3e3a32fb[m
+Author: storm <stooormix@gmail.com>
+Date:   Thu Jan 13 01:56:29 2022 +0330
+
+    PersonManager: create folder project and fixed store(import thunk , applyMiddleware, compose
+
+[33mcommit cd37b874aae138f66b069d8c84577c55eb14c898[m
+Author: storm <stooormix@gmail.com>
+Date:   Wed Jan 12 23:56:56 2022 +0330
+
+    start create person Managar Redux
+
+[33mcommit 474ec9d2e5d08be34d63cd5d800dffa7e3ec9be7[m[33m ([m[1;31mredux/master[m[33m)[m
+Merge: d55e322 55f9239
+Author: storm <stooormix@gmail.com>
+Date:   Wed Jan 12 21:44:40 2022 +0330
+
+    geting a backup copy
+
+[33mcommit d55e32293916a2fe2e3bfe005d810aad95dc23a5[m
+Author: storm <stooormix@gmail.com>
+Date:   Wed Jan 12 21:31:08 2022 +0330
+
+    null
+
+[33mcommit 55f92390d832b748debc5daa51857af48c25d52d[m
+Author: storm <stooormix@gmail.com>
+Date:   Wed Jan 12 21:17:52 2022 +0330
+
+    add login action and try redux
+
+[33mcommit a2b957dc46f9b1df0435ab3d101b4feb19c2cb36[m
+Author: storm <stooormix@gmail.com>
+Date:   Wed Jan 12 03:11:19 2022 +0330
+
+    edite name function
+
+[33mcommit 20a8621ec6cc3180c2372392c30b280e10e487a3[m
+Author: storm <stooormix@gmail.com>
+Date:   Wed Jan 12 02:49:44 2022 +0330
+
+    first try
+
+[33mcommit d721cd0ff99563b3e80b623c12ebbfd8bfa08455[m
+Author: storm <stooormix@gmail.com>
+Date:   Tue Jan 11 19:27:58 2022 +0330
+
+    delete file text
+
+[33mcommit d41275812b2ef5b7214cf61a57d80a56f82ee843[m
+Author: storm <stooormix@gmail.com>
+Date:   Tue Jan 11 19:27:14 2022 +0330
+
+    change name file text
+
+[33mcommit 1589af4b03b6c9f14a19fad79a9b53e44a4bdc7f[m
+Author: storm <stooormix@gmail.com>
+Date:   Tue Jan 11 19:11:34 2022 +0330
+
+    delete new file
+
+[33mcommit 502dde07fb5fc8b284c60d95ef4acf29ef109c98[m
+Author: storm <stooormix@gmail.com>
+Date:   Tue Jan 11 18:53:16 2022 +0330
+
+    delete img
+
+[33mcommit 7ef7e1269697818d51fe12700ec055d77dc011a7[m
+Author: storm <stooormix@gmail.com>
+Date:   Tue Jan 11 18:46:36 2022 +0330
+
+    create a redux app
