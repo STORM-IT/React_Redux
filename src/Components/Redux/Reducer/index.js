@@ -1,4 +1,4 @@
-import {combineReducers} from 'react-redux'
+import { combineReducers } from 'redux' 
 import { personReducer } from './person'
 import {personsReducer} from './persons'
 import { showPersonRedux } from './showPersons'
