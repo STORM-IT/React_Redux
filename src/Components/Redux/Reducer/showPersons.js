@@ -1,10 +1,10 @@
 export const showPersonRedux=(state=true,action)=>{
-    switch (type) {
-        case "SHOW_PERSONS":!state
+    switch (action.type) {
+        case "SHOW_PERSONS":return !state
             
           
     
         default:
-            state;
+          return  state;
     }
 }

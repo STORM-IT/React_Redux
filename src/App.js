@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Alert, Badge, Button } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux';
-import {handleShowPerson} from './Components/Redux/Action/showPersons'
+import {handeleShowPersons} from './Components/Redux/Action/showPersons'
 import Header from './Components/Header/Header';
 import NewPerson from './Components/Person/NewPerson';
 function App() {
