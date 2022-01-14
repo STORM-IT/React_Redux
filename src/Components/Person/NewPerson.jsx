@@ -3,6 +3,8 @@ import { Button } from "react-bootstrap";
 
 const NewPerson = ({ setPerson, newPerson, person }) => {
     const focusInput = useRef(null);
+    const person = useSelector(state => state.person)
+    const dispatch = useDispatch();
 
     return (
         <div className="m-2 p-2">
@@ -16,7 +18,7 @@ const NewPerson = ({ setPerson, newPerson, person }) => {
                         type="text"
                         placeholder="اسم بهم بده"
                         className="form-control"
-                        onChange={setPerson}
+                        onChange={()=>dispatch('SET_PERSON',)}
                         value={person}
                     />
                     <div className="input-group-prepend">

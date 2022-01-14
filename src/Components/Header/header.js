@@ -1,7 +1,8 @@
 import React from "react";
 import { Alert, Badge } from "react-bootstrap";
 
-const Header = ({ persons, appTitle }) => {
+const Header = ({appTitle}) => {
+    const persons = useSelector(state => state.persons)
     let badgeStyle = "";
 
     if (persons.length >= 3) badgeStyle = "success";
