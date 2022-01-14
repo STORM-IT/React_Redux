@@ -1,7 +1,5 @@
-import { combineReducers } from "redux"
-import { loginReducer } from "./login"
-import { counterReducer } from "./reducer"
-
+import {combineReducers} from 'react-redux'
+// import {}
 export const reducers = combineReducers({
     login:loginReducer,
     counter:counterReducer
