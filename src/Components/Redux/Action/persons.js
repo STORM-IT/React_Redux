@@ -14,14 +14,14 @@ export const add_person = (fullname) => {
     }
 }
 
-export const update_person = (id, fullname, age) => {
+export const update_person = (id, fullname) => {
     return async (dispatch, getState) => {
         const List_Person = [...getState().List_Person];
         const find_index = List_Person.findIndex(id => id === id);
         const person = List_Person[find_index];
         person = {
-            if (age) { age },
-            if (fullname) { fullname }
+            // if (age) { age },
+            fullname
         }
         List_Person[find_index]=person;
         await dispatch({type:"UPDATE_PERSON",payload:List_Person})
