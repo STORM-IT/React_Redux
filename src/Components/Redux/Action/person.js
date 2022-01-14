@@ -9,3 +9,6 @@ export const set_person=(event)=>{
         return await dispatch({type:"SET_PERSON", payload:event.target.value})
     }
 }
+
+
+//dsdsdsdsggdhfghd
