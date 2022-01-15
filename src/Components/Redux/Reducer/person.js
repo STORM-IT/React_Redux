@@ -1,4 +1,4 @@
-export const personReducer=(state,action)=>{
+export const personReducer=(state="",action)=>{
 
     switch (action.type) {
         case "SET_PERSON": return action.payload;

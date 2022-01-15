@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { Button } from "react-bootstrap";
 import {set_person} from './../Redux/Action/person'
 import { add_person } from "../Redux/Action/persons";
+import { useDispatch, useSelector } from "react-redux";
 const NewPerson = () => {
     const focusInput = useRef(null);
     const person = useSelector(state => state.person)

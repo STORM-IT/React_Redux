@@ -1,8 +1,9 @@
 import React from "react";
-import Person from "./Person";
+import Person from "./person";
 import { delete_person } from "../Redux/Action/persons";
 import { update_person } from "../Redux/Action/persons";
-const Persons = ({ persons, deletePerson, nameChange }) => {
+const Persons = () => {
+    const person = useSelector(state => state.persons)
     const dispatch = useDispatch()
     return (
         <div>
@@ -10,7 +11,7 @@ const Persons = ({ persons, deletePerson, nameChange }) => {
                 <Person
                     key={person.id}
                     fullname={person.fullname}
-                    deleted={() => dispatch(deletePerson(person.id))}
+                    deleted={() => dispatch(delete_person(person.id))}
                     changed={event => dispatch(update_person(person.id,event.target.value))}
                 />
             ))}
