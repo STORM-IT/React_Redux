@@ -2,8 +2,9 @@ import React from "react";
 import Person from "./person";
 import { delete_person } from "../Redux/Action/persons";
 import { update_person } from "../Redux/Action/persons";
+import { useDispatch, useSelector } from "react-redux";
 const Persons = () => {
-    const person = useSelector(state => state.persons)
+    const persons = useSelector(state => state.persons)
     const dispatch = useDispatch()
     return (
         <div>

@@ -1,5 +1,5 @@
 export const handeleShowPersons=()=>{
     return async dispatch=>{
-        await dispatch({type:"HANDELE_SHOW_PERSONS"})
+        await dispatch({type:"SHOW_PERSONS"})
     }
 }

@@ -10,7 +10,6 @@ function App() {
   const showPerson = useSelector(state => state.showPerson)
   // console.log(check_Login)
   // const state = useSelector(state => state.login)
-
   const dispatch = useDispatch()
   return (
     <Fragment>
@@ -27,7 +26,7 @@ function App() {
         نمایش اشخاص
       </Button>
 
-      {Persons}
+      <Persons/>
     </Fragment>
   );
 }
