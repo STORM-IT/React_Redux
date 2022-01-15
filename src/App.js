@@ -12,7 +12,7 @@ function App() {
   // const state = useSelector(state => state.login)
   const dispatch = useDispatch()
   return (
-    <Fragment>
+    <div className=' text-center'>
       <Header
         appTitle="مدیریت کننده اشخاص"
       />
@@ -20,14 +20,15 @@ function App() {
       <NewPerson />
 
       <Button
+
         onClick={() => dispatch(handeleShowPersons())}
         variant={showPerson ? "info" : "danger"}
       >
         نمایش اشخاص
       </Button>
-
-      <Persons/>
-    </Fragment>
+      {showPerson?<Persons/>:null}
+      
+    </div>
   );
 }
 

@@ -13,7 +13,7 @@ const Persons = () => {
                     key={person.id}
                     fullname={person.fullname}
                     deleted={() => dispatch(delete_person(person.id))}
-                    changed={event => dispatch(update_person(person.id,event))}
+                    changed={event => dispatch(update_person(event,person.id))}
                 />
             ))}
         </div>

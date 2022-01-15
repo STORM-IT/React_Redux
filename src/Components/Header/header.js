@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 
 const Header = ({appTitle}) => {
     const persons = useSelector(state => state.persons)
+
     let badgeStyle = "";
 
     if (persons.length >= 3) badgeStyle = "success";
@@ -15,9 +16,9 @@ const Header = ({appTitle}) => {
             <Alert variant="info">
                 <h2>{appTitle}</h2>
             </Alert>
-            <Alert variant="light">
+            <Alert variant="dark">
                 تعداد اشخاص{" "}
-                <Badge pill variant={badgeStyle}>
+                <Badge pill bg={badgeStyle}>
                     {persons.length}
                 </Badge>{" "}
                 نفر می باشد

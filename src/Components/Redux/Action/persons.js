@@ -14,10 +14,10 @@ export const add_person = (fullname) => {
     }
 }
 
-export const update_person = (id, event) => {
+export const update_person = (event,id ) => {
     return async (dispatch, getState) => {
         const List_Person = [...getState().persons];
-        const find_index = List_Person.findIndex(ID => ID == id);
+        const find_index = List_Person.findIndex(person => person.id == id);
         const person = List_Person[find_index];
         person.fullname=event.target.value
         List_Person[find_index]=person;
@@ -28,7 +28,9 @@ export const update_person = (id, event) => {
 export const delete_person=(id)=>{
     return async (dispatch,getState)=>{
         const List_Person=[...getState().persons]
-        const filter_persons=List_Person.filter(id =>id!=id)
-        await dispatch({type:"DELETE_PERSON", payload:List_Person})
+        console.log(id)
+        const filter_persons=List_Person.filter(person =>person.id!=id)
+        console.log(filter_persons)
+        await dispatch({type:"DELETE_PERSON", payload:filter_persons})
     }
 }
